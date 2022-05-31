@@ -1,0 +1,278 @@
+/* MOBILE */
+
+/* Responsive header */
+
+@media (max-width: 576px) {
+    
+    .header {
+        flex-direction: column;
+
+    }
+
+    .header__logo { /* no queda centrado, cambiar imagen? */
+        width: 80px;
+        height: auto;
+        
+    }
+   
+    .header__titulo {
+        font-size: 25px;
+        align-self: center;
+        padding: 20px;
+    }
+
+    /* falta el menú hamburguesa */
+    .header__menu, .header__menu-ul, .header__menu-li {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+        align-items: stretch;
+        align-self: center;
+    }
+
+    .section__imagen {
+        display: none;
+    }
+
+}
+
+/* Responsive main index*/
+ 
+@media (max-width: 576px) {
+
+    .section {
+        background: black;
+    }
+    .section__texto--titulo {
+        font-size: 15px;
+        font-weight: normal;
+        
+    }
+    .section__texto--parrafo {
+        color: white;
+        font-size: 15px;
+    }
+    .section__texto--motivacion {
+        color: silver;
+        font-size: 15px;
+    }
+}
+
+/* TABLET */
+
+/* header */
+
+@media (min-width: 576px) and (max-width: 992px) {
+ 
+
+
+    .header__titulo {
+        font-size: 30px;
+        align-self: center;
+        padding: 5px;
+    }
+
+       /* falta el menú hamburguesa */
+    .header__menu, .header__menu-ul, .header__menu-li {
+        flex-direction: column;
+        flex-wrap:wrap;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        align-items: stretch;
+        
+    }
+}    
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .section__texto--titulo {
+        font-size: 25px;
+        font-weight: normal;
+            
+    }
+    .section__texto--parrafo {
+        font-size: 20px;
+    }
+    .section__texto--motivacion {
+        font-size: 18px;
+    }
+}
+
+    /* DESKTOP en estilo.css*/ 
+
+    /* Responsive main contacto*/
+ 
+@media (max-width: 576px) {
+
+    .main-contacto {
+        background: black;
+    }
+    .main__titulo {
+        font-size: 22px;
+        color: white;
+        padding: 10px;
+    }
+    .main__parrafo {
+        color: white;
+        font-size: 15px;
+    }
+    .main__parrafo-2 {
+        color: silver;
+        font-size: 18px;
+    }
+    .main__section--form {
+        color: silver;
+        font-size: 15px;
+        border: white solid 1px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .main__titulo {
+        font-size: 28px;
+    }
+    .main__parrafo {
+        font-size: 18px;
+    }
+    .main__parrafo-2 {
+        font-size: 24px;
+    }
+    .main__section--form {
+        font-size: 20px;
+    }
+
+}
+
+/* Responsive main últimas noticias */
+
+@media (max-width: 576px) {
+
+    .main__portada--titulo {
+        font-size: 25px;
+    }
+    
+    .main__section-UN {
+    background: black;
+    display: flex;
+    flex-direction: column; 
+    }
+
+    .main__section--div {
+        color: white;
+    }
+
+    .main__section--subtitulo {
+        font-size: 18px;
+        background-color: silver;
+    }
+
+    .main__section-h4--subtitulo {
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+    }
+
+    .main__section--noticia {
+        font-size: 12px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .main__portada--titulo {
+        font-size: 35px;
+    }
+
+    .main__section-UN {
+        display: flex;
+    flex-direction: column; 
+    }
+
+    .main__section--subtitulo {
+        font-size: 20px;
+    }
+
+    .main__section-h4--subtitulo {
+        font-size: 18;
+
+    }
+
+   .main__section--noticia {
+        font-size: 15px ;
+   }
+}
+
+/* Responsive main sobre el mundial */
+
+@media (max-width: 576px) {
+
+    .main__sobreelmundial {
+        background: black;
+    }
+    
+    .main__section--info {
+        color: white;
+        font-size: 15px;
+    }
+
+    .main__section--titulo {
+        color: black;
+        background: white;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .main__section--titulo {
+        font-size: 25px;
+    }
+    
+    .main__section--info {
+        font-size: 18px;
+    }
+    
+}
+
+/* Responsive main equipos */
+
+@media (max-width: 576px) {
+
+    .main__equipos {
+        background: black;
+    }
+
+    .main__section--titulos {
+        color: black;
+        background: white;
+        font-size: 20px;
+    }
+
+    .main__section--tablas {
+        color: silver;
+        border: solid 2px silver;
+        font-size: 18px;
+    }
+
+    .main__partidos {
+        color: white;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    
+    .main__section--titulos {
+        font-size: 25px;
+    }
+
+    .main__section--tablas {
+        font-size: 22px;
+    }
+
+}
