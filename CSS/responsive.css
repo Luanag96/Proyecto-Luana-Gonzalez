@@ -21,7 +21,6 @@
         padding: 20px;
     }
 
-    /* falta el menú hamburguesa */
     .header__menu, .header__menu-ul, .header__menu-li {
         flex-direction: row;
         flex-wrap: nowrap;
