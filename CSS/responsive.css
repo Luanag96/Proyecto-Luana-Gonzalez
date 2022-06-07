@@ -45,7 +45,7 @@
         background: black;
     }
     .section__texto--titulo {
-        font-size: 15px;
+        font-size: 25px;
         font-weight: normal;
         
     }
@@ -56,6 +56,9 @@
     .section__texto--motivacion {
         color: silver;
         font-size: 15px;
+    }
+    .img-index {
+        display: none;
     }
 }
 
@@ -127,6 +130,7 @@
         font-size: 15px;
         border: white solid 1px;
     }
+
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -262,6 +266,8 @@
         color: white;
     }
 
+}   .frase__equipos {
+    font-size: 15px;
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
