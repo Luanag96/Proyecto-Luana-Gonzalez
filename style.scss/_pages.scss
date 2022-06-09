@@ -1,0 +1,100 @@
+/* Contacto.html */
+
+main-contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: silver;
+
+    @keyframes titulo-contacto {
+        0% {
+            color: #661c1c;
+        }
+        25% {
+            color: rebeccapurple;
+        }
+        50% {
+            color: tomato;
+        }
+        75% {
+            color: orangered;
+        }
+        100% {
+            color: black;
+        }
+    }
+    main__titulo-contacto {
+        font: {
+            family: $fontTitulos;
+            size: 35px;
+        }
+        text-align: center;
+        animation-name:titulo-contacto;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
+    main__parrafo {
+        padding: 20px;
+        font: {
+            family: $fontParrafos;
+            size: 22px;
+        }
+        text-align: center; 
+    }
+
+    main__parrafo-2 {
+        font: {
+            family: $fontParrafos;
+            size:30px;
+        }
+        text-align: center;
+
+    }
+
+    main__section {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        main__section--form {
+            padding: 15px;
+            font-family: $fontFormularios;
+            font-size: 22px;
+            color: #661c1c;
+            main__section--text {
+                display: flex;
+                justify-content: space-between;
+                padding: 5px;
+            }
+            main__section--textarea {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 10px;
+                &:focus {
+                    background-color: black;
+                    color: silver;
+                }
+            }
+            main__section--button {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                padding: 10px;
+            }
+            input {
+                color: black;
+                &:focus {
+                    background-color: black;
+                    color: silver;
+                }
+            }
+        }
+    }
+
+    main__imagen {
+        height: auto;
+        width: 100%;
+    }
+
+}
