@@ -49,3 +49,23 @@ section {
 
 
 }
+
+/* Sass II */
+
+$coloresTexto: (
+    Encabezado: silver
+    Titulos: black
+    Subtitulos: #661c1c
+);
+
+.main__portada--titulo {
+    color: map-get($coloresTexto, Encabezado); 
+}
+
+.main__section--titulos {
+    color: map-get($coloresTexto, Titulos);
+}
+
+.main__section--subtitulo {
+    color: map-get($coloresTexto, Subtitulos);
+}
