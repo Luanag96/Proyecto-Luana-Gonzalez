@@ -77,11 +77,27 @@ main-contacto {
                 }
             }
             main__section--button {
-                display: flex;
+                display: inline-block;
                 justify-content: center;
                 gap: 10px;
-                padding: 10px;
+                padding: 15px;
             }
+            
+            /* Uso Extend */
+
+            button--enviar {
+                @extend main__section--button;
+                width: 30px;
+                height: auto;
+            }
+
+            button--restablecer {
+                @extend main__section--button;
+                width: 45px;
+                height: auto;
+            }
+
+
             input {
                 color: black;
                 &:focus {
@@ -98,3 +114,60 @@ main-contacto {
     }
 
 }
+
+/* Uso Mixins en Equipos */
+
+@mixin encabezadoTablas {
+    background-color: silver;
+    border: solid 1px black;
+} 
+
+encabezadoTablas--A {
+    @include encabezadoTablas;
+    color: #661c1c;
+}
+
+encabezadoTablas--B {
+    @include encabezadoTablas;
+    color: #9b2626;
+}
+
+encabezadoTablas--C {
+    @include encabezadoTablas;
+    color: #c72121;
+}
+
+encabezadoTablas--D {
+    @include encabezadoTablas;
+    color: #862d2d;
+}
+
+encabezadoTablas--E {
+    @include encabezadoTablas;
+    color:#701212;
+
+}
+
+encabezadoTablas--F {
+    @include encabezadoTablas;
+    color:#cf1616;
+
+}
+
+encabezadoTablas--G {
+    @include encabezadoTablas;
+    color:#e64343;
+
+}
+
+encabezadoTablas--H {
+    @include encabezadoTablas;
+    color:#a12e2e;
+
+}
+
+
+
+
+
+

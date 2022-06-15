@@ -362,10 +362,10 @@
 }
 
 .main__section--button {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     gap: 10px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .main__section--textarea {

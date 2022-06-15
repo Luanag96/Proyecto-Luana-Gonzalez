@@ -53,8 +53,8 @@ section {
 /* Sass II */
 
 $coloresTexto: (
-    Encabezado: silver
-    Titulos: black
+    Encabezado: #c0c0c0,
+    Titulos: #000000,
     Subtitulos: #661c1c
 );
 
@@ -69,3 +69,5 @@ $coloresTexto: (
 .main__section--subtitulo {
     color: map-get($coloresTexto, Subtitulos);
 }
+
+

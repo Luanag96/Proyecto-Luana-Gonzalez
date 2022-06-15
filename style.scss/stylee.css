@@ -112,6 +112,7 @@ main-contacto main__section main__section--form {
   font-family: "Play", sans-serif;
   font-size: 22px;
   color: #661c1c;
+  /* Uso Extend */
 }
 
 main-contacto main__section main__section--form main__section--text {
@@ -139,15 +140,23 @@ main-contacto main__section main__section--form main__section--textarea:focus {
   color: silver;
 }
 
-main-contacto main__section main__section--form main__section--button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+main-contacto main__section main__section--form main__section--button, main-contacto main__section main__section--form button--enviar, main-contacto main__section main__section--form button--restablecer {
+  display: inline-block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   gap: 10px;
-  padding: 10px;
+  padding: 15px;
+}
+
+main-contacto main__section main__section--form button--enviar {
+  width: 30px;
+  height: auto;
+}
+
+main-contacto main__section main__section--form button--restablecer {
+  width: 45px;
+  height: auto;
 }
 
 main-contacto main__section main__section--form input {
@@ -162,6 +171,55 @@ main-contacto main__section main__section--form input:focus {
 main-contacto main__imagen {
   height: auto;
   width: 100%;
+}
+
+/* Uso Mixins en Equipos */
+encabezadoTablas--A {
+  background-color: silver;
+  border: solid 1px black;
+  color: #661c1c;
+}
+
+encabezadoTablas--B {
+  background-color: silver;
+  border: solid 1px black;
+  color: #9b2626;
+}
+
+encabezadoTablas--C {
+  background-color: silver;
+  border: solid 1px black;
+  color: #c72121;
+}
+
+encabezadoTablas--D {
+  background-color: silver;
+  border: solid 1px black;
+  color: #862d2d;
+}
+
+encabezadoTablas--E {
+  background-color: silver;
+  border: solid 1px black;
+  color: #701212;
+}
+
+encabezadoTablas--F {
+  background-color: silver;
+  border: solid 1px black;
+  color: #cf1616;
+}
+
+encabezadoTablas--G {
+  background-color: silver;
+  border: solid 1px black;
+  color: #e64343;
+}
+
+encabezadoTablas--H {
+  background-color: silver;
+  border: solid 1px black;
+  color: #a12e2e;
 }
 
 /* body index */
@@ -214,5 +272,18 @@ section section__texto section__texto--motivacion {
   font-family: 'Play', sans-serif;
   font-size: 20px;
   text-align: center;
+}
+
+/* Sass II */
+.main__portada--titulo {
+  color: #c0c0c0;
+}
+
+.main__section--titulos {
+  color: #000000;
+}
+
+.main__section--subtitulo {
+  color: #661c1c;
 }
 /*# sourceMappingURL=stylee.css.map */
