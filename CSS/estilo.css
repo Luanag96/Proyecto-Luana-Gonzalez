@@ -317,7 +317,8 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-color: silver;
+    background-image: url(../IMG/Pisando\ pelota.jpg);
+    background-size: contain;
 }
 
 .main__titulo {
@@ -344,20 +345,20 @@
 .main__section {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-self: flex-start;
     
 }
 .main__section--form {
     padding: 15px;
     font-family: 'Play', sans-serif;
     font-size: 22px;
-    color: #661c1c;
+    color: silver;
 }
 
 .main__section--text {
     display: flex;
-    justify-content: space-between;
-    padding: 5px;
+    justify-content: flex-start;
+    padding: 10px;
     
 }
 
