@@ -676,7 +676,7 @@
     }
 
    .frase__equipos {
-    font-size: 15px;
+    font-size: 13px;
    }
 
     .texto__carrousel {
@@ -701,6 +701,10 @@
     .main__section--equipos {
         font-size: 15px;
     }
+ 
+   .frase__equipos {
+    font-size: 20px;
+   }
 
 
 }
