@@ -15,66 +15,6 @@
     z-index: 1;
 }
 
-  
-/* .header {
-    padding: 20px;  
-    background-color: white;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-   
-}
-
-.header__logo--principal { 
-    width: 180px;
-    height: auto;
-    
-}
-
-.header__titulo {
-    font-family: 'Paytone One', sans-serif;
-    font-size: 40px;
-    font-weight: 100px;
-    color: silver;
-    text-align: center;
-    display: flex;
-   
-}
-
-
-.header__menu {
-    display: flex;
-    padding: 5px;
-    align-self: flex-end;
-}
-
-.header__menu-ul {
-    display: flex;
-}
-
-.header__menu-li {
-    list-style: none;
-    display: flex;
-    padding: 3px;
-}
-
-.header__menu-li--nav {
-    padding: 5px;
-    margin: 2px;
-    display: flex;
-    border: 1px solid black;
-    text-decoration: none;
-    background-color: transparent;
-    color: #661c1c;
-    font-family: 'Anton', sans-serif;
-}
-
-.header__menu-li--nav:hover {
-    background-color: black;
-    color: rgb(158, 156, 156);
-} */
 
 .section {
     display: grid;
@@ -192,19 +132,23 @@
 }
 
 .main__section--equipos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px;
+    gap: 10px;
 }
 
+
 .main__section--tablas {
-   font-size: 25px;
-   padding: 10px;
-   margin: 18px;
-   font-family: 'Russo One', sans-serif;
-   text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: stretch;
+    table-layout: fixed;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
 }
+
 
 .main__portada--imagen {
     width: 100%;
