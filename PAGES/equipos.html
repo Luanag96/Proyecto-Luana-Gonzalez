@@ -68,7 +68,7 @@
 
     <section class="main__section--e">
         
-        <div>
+        <div class="container">
             <h2 class="main__section--titulos">Clasificados a Qatar 2022</h2>
             <p class="main__section--info">En cada edición hay un país anfitrión, en este caso cómo ya sabemos, la sede mundialista es Qatar, de ahí quedan 31 plazas, 29 se dan de forma directa y ya están confirmadas por diferentes países de todo el mundo y las dos restantes se obtienen vía repechaje a jugarse en el mes de Junio. Cada confederación tiene diferente número de cupos y mediante las eliminatorias jugadas entre mundial y mundial se da el acceso a los mismos. Abajo te dejo fotos de algunas fotos de las selecciones que nos acompañan este año. </p> 
         </div>
@@ -76,8 +76,13 @@
     </section>
 
 
-    <div class="container">
-        <div id="carouselExampleSlidesOnly" class="carousel slide m-3 d-flex justify-content-center" data-bs-ride="carousel">
+    <div class="container col-lg-6 col-md-6 col-sm-6 p-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="../IMG/alemania.jfif" class="d-block w-100" alt="Alemania">
@@ -86,16 +91,24 @@
                 <img src="../IMG/Argentina.jpg" class="d-block w-100" alt="Arg">
               </div>
               <div class="carousel-item">
-                <img src="../IMG/Uruguay.jpg" class="d-block w-100" alt="Esp">
-              </div>
-              <div class="carousel-item">
-                <img src="../IMG/italia.jpg" class="d-block w-100" alt="Italia">
-              </div>
-              <div class="carousel-item">
-                <img src="../IMG/Francia.jpg" class="d-block w-100" alt="Francia">
+                <img src="../IMG/Francia.jpg" class="d-block w-100" alt="Esp">
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>  
+
+        <div class="container col-lg-6 fs-6 col-md-6 col-sm-6 fst-italic">
+            <p>En primer lugar encuentran a la Selección Alemana de fútbol, en la segunda foto está viendo a la Selección Argentina y por último tenemos a la Selección de Francia, todas ganadoras de la Copa del Mundo a lo largo de la historia.</p>
         </div>
+    
     </div>
 
 
